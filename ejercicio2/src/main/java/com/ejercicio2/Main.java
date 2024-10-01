@@ -19,7 +19,7 @@ public class Main {
             }
             System.out.println("Ingrese el número aleatorio: ");
             cambio = omega.nextInt();
-            
+
             if (cambio < ramdon) {
 
                 System.out.println("El número oculto es mayor ");
@@ -32,14 +32,14 @@ public class Main {
             if (cambio == ramdon) {
 
                 System.out.println("Número correcto ");
-                System.out.println("Intentos realizados: "+i);
-                
+                System.out.println("Intentos realizados: " + i);
+
                 break;
-                
+
             }
-            
+
         }
 
     }
-    
+
 }
